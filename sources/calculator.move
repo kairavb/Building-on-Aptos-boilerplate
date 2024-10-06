@@ -12,7 +12,7 @@ module metaschool::calculator_l05
     {
         if (!exists<Message>(signer::address_of(account))){
             let message = Message {
-                my_message : utf8(b"I am a Calculator Dapp")            
+                my_message : utf8(b"Hello World From Kairav")            
             };
             move_to(account,message);    
         }
